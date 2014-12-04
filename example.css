@@ -1,0 +1,450 @@
+﻿/* CSS Document */
+
+/*Search*/
+#txt_search{
+background:#FFF;
+border: 1px solid #999999;
+}
+.x-field-search .x-field-input .x-form-field {
+padding-left: 2em;
+margin:0!important;
+}
+/*help*/
+.UserGuide{
+	background:rgba(129, 179, 69,1) !important;
+	opacity: 1!important;}
+.Submit3 {
+background-image: url(./img/SubmitUP.png);
+}
+.Submit4{
+	background-image:none;
+	margin:0;
+	width: 10px!important;}
+.Submit {
+float: left;
+width: 50px;
+height: 32px;
+border: 0;
+background-color: transparent;
+margin-top: 7px;
+margin-left: 7px;
+}
+/*施工中頁面*/
+#wrap { display:table; width:100%; }
+#cell { display:table-cell; vertical-align:middle; text-align:center;width:100%;}
+#cellbk { display:table-cell; vertical-align:middle; text-align:center;width:100%; background:#666;}
+#content{margin:0 auto; word-wrap: break-word; word-break: normal; }
+#contentTOP{
+	height:47PX;}
+#content img{
+	width:100%;
+	max-width:500px;
+	height:auto;
+}
+#content p {
+	border-top: 5px solid #FFF;
+width: 100%;
+margin: 0;}
+#content .text_title {
+font-size: 20px;
+color: #FFF;
+padding: 5px 0;
+text-align: center;
+font-weight: bold;
+}
+/*施工中頁面end*/
+html, body{
+	width:100%;
+	margin:0;
+	padding:0;
+	min-height:411px;
+	color:#333;
+	background-image:url(./img/content-bg.png);
+	font-family: Arial, Helvetica, sans-serif, 微軟正黑體!important;
+	}
+.x-list .x-list-item{
+	color:#555!important;}
+.x-list .x-list-item img{
+	margin-top: 5px;
+	margin-right: 0;
+	margin-bottom: -2px;
+	margin-left: -2px;
+}
+.x-list .x-list-item .x-list-item-label {
+min-height: 2.6em;
+padding: 0.7em 0.6em!important;
+}
+a{
+	color: #FFF;
+	text-decoration: none;
+		font-family: Arial, Helvetica, sans-serif, 微軟正黑體;
+		border: 0px;
+	font-weight: bold;
+}
+img { border: 0px;}
+.div{
+	margin:0;
+	padding:0;}
+/*專案按鈕*/
+#btn_Project{
+border-left-width: 1px!important;}
+#btn_Project, #btn_Status{
+	background-color: #FFF !important;
+	background-image: none!important;
+	background-repeat: no-repeat!important;
+	background-position: center!important;
+	border-top-width: 0!important;
+	border-right-width: 0!important;
+	border-bottom-width: 1px!important;
+	border-radius: 0!important;
+}
+.x-button{
+	color:#555!important;}
+/*返回上一頁按鈕*/
+.x-toolbar-dark  #btn_ProcessAdd{
+	z-index: 99!important;
+	width: 50px;
+	height: 32px;
+	background-image: url(./img/AcerAppNewSubmit.png)!important;
+	background-color: transparent!important;
+	background-repeat: no-repeat;
+	border: 0!important;
+	margin:2px!important;}
+.x-toolbar-dark #btn_ItemMenu,.x-toolbar-dark #btn_ProcessDetail {
+	z-index: 99!important;
+	width: 50px;
+	height: 32px;
+	background-image: url(./img/SubmitUP.png)!important;
+	background-color: transparent!important;
+	background-repeat: no-repeat;
+	border: 0!important;
+	margin:2px!important;}
+#btn_ItemRefresh {
+z-index: 99!important;
+width: 50px;
+height: 32px;
+background-image: url(./img/Submit.png)!important;
+background-color: transparent;
+background-repeat: no-repeat;
+border: 0;
+}
+.x-toolbar-dark .x-button .x-button-icon.x-icon-mask,
+.x-button.x-button-back:before, .x-button.x-button-forward:before, 
+.x-toolbar .x-button.x-button-back:before, 
+.x-toolbar .x-button.x-button-forward:before,
+.x-button.x-button-back:after,
+.x-button.x-button-forward:after,
+.x-toolbar .x-button.x-button-back:after,
+.x-toolbar .x-button.x-button-forward:after{
+	display:none;}
+/*下拉選單*/
+.x-anchor {
+width: 1.631em;
+height: 0.7em;
+position: absolute;
+left: 0;
+top: 0;
+z-index: 1;
+-webkit-mask: 0 0 url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAPCAYAAABut3YUAAAAGXRF…B1WvHYDkNFjIgwS1ALMowMOAjEAeBHINe2Q0U+AUQYACQ10C2QNhRogAAAABJRU5ErkJggg==') no-repeat;
+-webkit-mask-size: 1.631em 0.7em;
+overflow: hidden;
+background-color: #555!important;
+-webkit-transform-origin: 0% 0%;
+}
+.x-panel.x-floating, .x-msgbox.x-floating, .x-form.x-floating {
+padding: 6px;
+-webkit-border-radius: 0.3em;
+border-radius: 0.3em;
+-webkit-box-shadow: rgba(0, 0, 0, 0.8) 0 0.2em 0.6em;
+background-color:#555!important;
+background-image: none;
+}
+/*標題*/
+.x-panel .x-toolbar-dark {
+	background:#81B345;}
+.x-title {
+color: #FFF;
+font-family: Arial, Helvetica, sans-serif, 微軟正黑體;
+font-size: 18px!important;}
+.UserGuide{
+	position: fixed !important;
+	margin-top:0;}
+.title{
+	width: 100%;
+	text-align:center;
+	background: rgba(0,0,0,0.8);
+filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#7F000000,endcolorstr=#7F000000);
+opacity: 0.8;
+	color: #FFF;
+	font-size: 18px;
+	border-bottom: 1px solid #999;
+	margin:0 !important;
+	font-family: Arial, Helvetica, sans-serif, 微軟正黑體;
+	font-weight: bold;
+	height:46px;
+}
+.titlelogo img{
+	display:none;;}
+.titlebk{
+	display:none;}
+.x-list {
+position: relative;
+background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(47%,rgba(246,246,246,1)), color-stop(100%,rgba(237,237,237,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+
+}
+.Contentall{
+	width:100%;
+	text-align: center;
+	padding:0;
+	margin:0;
+}
+.Contentall ul{
+	width:100%;
+	max-width:300px;
+	min-height:330px;
+	text-align: center;
+	padding:0;
+	margin:5px auto;
+	}	
+.Contentall li{
+	list-style: none;
+	float: left;
+	word-wrap: break-word;
+	word-break: break-all;
+	width:40%;
+	height: 90px;
+	font-weight: bold;
+	color: #FFF;
+	margin-top: 3%;
+	margin-right: 3.5%;
+	margin-left: 3.5%;
+	padding-top: 0;
+	padding-right: 1%;
+	padding-bottom: 0;
+	padding-left: 1%;	
+	}
+.Contentall li img{
+	width: 50px;
+	margin:0 auto;
+	padding:5px;
+	text-align: center;
+	vertical-align : middle;
+	}
+.imglink{ margin:0; padding:0!important; width:42% !important;}
+.imglink img{  width:100%!important;padding:0!important;}
+.tagall{	}
+.tagall p{
+	margin:25px 0!important;
+}
+.name {
+	line-height: 2.8em;
+	font-size: 18px;
+	text-align: center;
+	font-weight: bold;
+	text-shadow: rgba(0, 0, 0, 0.5) 0 -0.08em 0;
+	margin-left:-42px;	
+	}
+.x-list .x-list-disclosure {
+position: absolute;
+top: 1.3em!important;
+right: 0.44em;
+}
+/*選擇項目顏色*/
+.x-list .x-list-disclosure {
+overflow: visible;
+-webkit-mask-size: 1.4em;
+background:rgb(255, 197, 73)!important;
+width: 1.4em;
+height: 1.4em;
+border: solid 2px #ffffff;
+-moz-border-radius: 50px;
+-webkit-border-radius: 50px;
+border-radius: 50px;
+}
+.x-list .x-item-selected .x-list-disclosure,
+.x-list .x-item-pressed .x-list-disclosure {
+background: #fff none!important;
+}
+.x-list-normal .x-list-item.x-item-selected .x-list-item-label{
+	border-top-color: #CCC!important;
+	border-bottom-color: #CCC!important;}
+.x-list-normal .x-list-item.x-item-pressed .x-list-item-label{
+	border-top-color: #CCC!important;
+	border-bottom-color: #CCC!important;}
+.x-list .x-list-item.x-item-selected .x-list-item-label {
+	background:#D9E999!important;}
+.x-list .x-list-item.x-item-pressed .x-list-item-label {
+	background:#FFC!important;}
+.x-list .x-list-item.x-item-selected .x-list-item-label{
+	color:#333!important;
+     text-shadow: rgba(255, 255, 255, 0.5) 0 -0.08em 0!important;}
+/*Acerapp icon顏色*/
+.title1{background: rgba(0,0,0,0.8);
+filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#7F000000,endcolorstr=#7F000000);
+opacity: 0.8;}
+.tag01a{
+background: #81B345; /* Old browsers */
+}
+.tag02a{background: #81B345; /* Old browsers */
+}
+.tag03a{background: #81B345; /* Old browsers */
+}
+.tag04a{background: #81B345; /* Old browsers */
+}
+.tagfba{background: #81B345; /* Old browsers */
+}
+.tagtwittera{background: #a4ddf4; /* Old browsers */
+}
+/*回電腦版*/
+.PClink {
+	width:100% !important;
+	max-height: 22px;
+	text-align: center;
+	margin:1% auto ;
+	padding-top:3px!important;
+	color:#9AE53E!important;
+}
+.PClink a{
+	color:#00F;
+	text-decoration: none;
+	width:100%;
+}
+
+/*頁腳CSS*/
+.x-docked-bottom .x-innerhtml p {
+font-size: 16px!important;
+text-align: center;
+padding:3px;
+margin: 0;
+}
+.footer{
+	position: fixed;
+	z-index:1;
+	bottom: 0;
+	margin-bottom:0;
+	padding:0;
+	font-family: Arial, Helvetica, sans-serif, 微軟正黑體;
+	font-size: 1em;
+	width: 100%;
+	text-align: center;
+	background: rgba(0,0,0,0.8);
+filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#7F000000,endcolorstr=#7F000000);
+opacity: 0.8;
+	color: #FFF;
+	}
+.footer p{
+	padding: 3px;
+	margin: 0;
+	font-size: 1em;
+	text-align: center;
+}
+.x-docked-bottom .x-innerhtml p span {
+color: red;
+}
+/*送出按鈕*/
+.x-button.btn_submit,.x-container .x-button.btn_submit{
+	background-color:#99C95F!important;
+	background-image:none;
+	color:#FFF!important;
+	border:0!important;
+	width:50%;
+}
+
+/*取消按鈕*/
+.x-button.btn_cancel,.x-container .x-button.btn_cancel{
+	background-color:#F90!important;
+	background-image:none;
+	color:#FFF!important;
+	border:0!important;
+	width:50%;}
+
+/*選擇框*/
+.x-floating .x-toolbar-dark .x-button, .x-toolbar .x-button.x-button-action,
+.x-container .x-toolbar .x-button.x-button-action{
+background: rgb(247,247,247);
+background: -moz-linear-gradient(top, rgba(247,247,247,1) 0%, rgba(188,188,188,1) 99%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(247,247,247,1)), color-stop(99%,rgba(188,188,188,1)));
+background: -webkit-linear-gradient(top, rgba(247,247,247,1) 0%,rgba(188,188,188,1) 99%);
+background: -o-linear-gradient(top, rgba(247,247,247,1) 0%,rgba(188,188,188,1) 99%);
+background: -ms-linear-gradient(top, rgba(247,247,247,1) 0%,rgba(188,188,188,1) 99%);
+background: linear-gradient(to bottom, rgba(247,247,247,1) 0%,rgba(188,188,188,1) 99%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#bcbcbc',GradientType=0 );
+border-color: #666;
+}
+.x-container .x-button{
+	color:#000!important;}
+.x-sheet .x-toolbar-dark {
+background: rgb(238,238,238);
+background: -moz-linear-gradient(top, rgba(238,238,238,1) 0%, rgba(204,204,204,1) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(238,238,238,1)), color-stop(100%,rgba(204,204,204,1)));
+background: -webkit-linear-gradient(top, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%);
+background: -o-linear-gradient(top, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%);
+background: -ms-linear-gradient(top, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%);
+background: linear-gradient(to bottom, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 );
+}
+.x-container .x-toolbar .x-button.x-button-action.x-button-pressing,
+.x-container .x-toolbar-dark .x-button.x-button-pressing 
+{background: rgb(214,214,214); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(214,214,214,1) 0%, rgba(178,178,178,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(214,214,214,1)), color-stop(100%,rgba(178,178,178,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(214,214,214,1) 0%,rgba(178,178,178,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(214,214,214,1) 0%,rgba(178,178,178,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(214,214,214,1) 0%,rgba(178,178,178,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(214,214,214,1) 0%,rgba(178,178,178,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6d6d6', endColorstr='#b2b2b2',GradientType=0 ); /* IE6-9 */
+}
+.x-sheet.x-picker{
+background: rgb(238,238,238); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(238,238,238,1) 0%, rgba(238,238,238,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(238,238,238,1)), color-stop(100%,rgba(238,238,238,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(238,238,238,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(238,238,238,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(238,238,238,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(238,238,238,1) 0%,rgba(238,238,238,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */
+}
+.x-sheet.x-picker .x-sheet-inner:before {
+	background-image:none !important;}
+.x-sheet.x-picker .x-sheet-inner:before, .x-sheet.x-picker .x-sheet-inner:after {
+	content:normal;}
+.x-sheet.x-picker .x-sheet-inner {
+	background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(229,229,229,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(229,229,229,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+	border:1px solid #CCC !important;}
+.x-floating .x-picker-bar {
+border-top: 0.12em solid #666;
+border-bottom: 0.12em solid #666;
+height: 2.5em;
+background: -moz-linear-gradient(top, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.15) 1%, rgba(0,0,0,0.15) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.15)), color-stop(1%,rgba(0,0,0,0.15)), color-stop(100%,rgba(0,0,0,0.15)));
+background: -webkit-linear-gradient(top, rgba(0,0,0,0.15) 0%,rgba(0,0,0,0.15) 1%,rgba(0,0,0,0.15) 100%);
+background: -o-linear-gradient(top, rgba(0,0,0,0.15) 0%,rgba(0,0,0,0.15) 1%,rgba(0,0,0,0.15) 100%);
+background: -ms-linear-gradient(top, rgba(0,0,0,0.15) 0%,rgba(0,0,0,0.15) 1%,rgba(0,0,0,0.15) 100%);
+background: linear-gradient(to bottom, rgba(0,0,0,0.15) 0%,rgba(0,0,0,0.15) 1%,rgba(0,0,0,0.15) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#26000000', endColorstr='#26000000',GradientType=0 );
+}
+
+
+/*END*/
+.x-container .x-msgbox.x-floating{
+	background:#FFC !important;}
+.x-msgbox-title.x-toolbar-dark .x-title{
+	color:#F00;
+	text-shadow:0px 0px 0px #666!important;}
+.x-field .x-input-radio:checked:after, .x-field .x-input-checkbox:checked:after {
+background-color:#81B345!important;
+}

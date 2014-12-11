@@ -21,7 +21,7 @@
 			  '</div>',
               '<div style="margin:0 60px;font-size:14px;">{標題}</div>',
               //'<div style="margin:0 60px;"><b>{項次}</b></div>',
-			  '<div style="font-size:14px; margin:0 60px;"><tpl for=".">{建立者.全名}</tpl>',
+			  '<div style="font-size:14px; margin:0 60px;">{建立者.全名}</div>',
               '</div>',
 			  {
 				getDate: function(date) {

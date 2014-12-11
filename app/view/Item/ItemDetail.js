@@ -18,74 +18,36 @@ Ext.define('Acer.view.Item.ItemDetail', {
                     name: '識別碼',
 					hidden: true
                 },{
-                    xtype: 'textfield',
-                    name: '附件數',
-					hidden: true
+                    xtype: 'displayField',
+                    name: '問題類別',
+                    label: '問題類別'
                 },{
                     xtype: 'displayField',
-                    name: '專案名稱',
-                    label: '專案名稱'
+                    name: '標題',
+                    label: '標題'
                 },{
                     xtype: 'displayField',
-                    name: '項次',
-                    label: '項次'
+                    name: '狀態',
+                    label: '狀態'
                 },{
                     xtype: 'displayField',
-                    name: '內容',
-                    label: '內容'
+                    name: '專案類型',
+                    label: '專案類型'
                 },{
                     xtype: 'displayField',
-                    name: '客戶名稱',
-                    label: '客戶名稱'
-                },{
-                    xtype: 'displayField',
-                    name: '目標時限',
-                    label: '目標時限'
-                },{
-                    xtype: 'displayField',
-                    name: '負責業務',
-                    label: '負責業務'
-                },{
-                    xtype: 'displayField',
-                    name: '負責PM',
-                    label: '負責PM'
-                },{
-                    xtype: 'displayField',
-                    name: '合作廠商',
-                    label: '合作廠商'
+                    name: '描述',
+                    label: '描述'
                 },
-				{
-					xtype: 'checkboxfield',
-					id: 'chk_company',
-					name: '廠商完成',
-					label: '廠商完成'
-				},
-				{
-					xtype: 'checkboxfield',
-					id: 'chk_pm',
-					name: 'PM驗收',
-					label: 'PM驗收'
-				},
-				{
-					xtype: 'checkboxfield',
-					id: 'chk_sales',
-					name: '業務驗收',
-					label: '業務驗收'
-				},
 				{
 					xtype: 'button',
 					text: '送出',
 					cls: 'btn_submit',
 					width: '100%',
 					handler: function(btn, e){
-						var _form = btn.up('panel');
+						/*var _form = btn.up('panel');
 						Ext.util.JSONP.request({
 							params: {
-								id: _form.down('field[name=識別碼]').getValue(),
-								chkcom: _form.down('field[name=廠商完成]').getChecked(),
-								chkpm: _form.down('field[name=PM驗收]').getChecked(),
-								chksales: _form.down('field[name=業務驗收]').getChecked(),
-								files: _form.down('field[name=附件數]').getValue()
+								id: _form.down('field[name=識別碼]').getValue()
 							},
 							method: 'Post',
 							url: WS_Add_Url + '&list=項次',
@@ -100,14 +62,13 @@ Ext.define('Acer.view.Item.ItemDetail', {
 										store.loadPage(1);
 										main.setActiveItem(0);
 									});
-									task.delay(1500); 
-									//task.cancel();
-									
+									task.delay(1500);
 								}
 								else
 									Ext.Msg.alert(response.error, '');
 							}
 						});
+						*/
 					}
 				}]
         }

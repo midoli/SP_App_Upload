@@ -12,6 +12,7 @@
             cache: false,
             extraParams: {
 				$orderby: "修改時間 desc",
+				$expand: "建立者",
 				$filter: ""
             },
             reader: {

@@ -24,11 +24,12 @@
 				text: 'Picture',
 				id: 'btn_ItemPhoto',
 				handler: function(btn) {
-					var id = btn.up('panel').down('textfield[name=識別碼]').getValue();
+					_id = btn.up('panel').down('textfield[name=識別碼]').getValue();
+					_type = "I";
 					var store = Ext.getStore('Photo');
 					var proxy = store.getProxy();
-					proxy.config.extraParams.FolderUrl = id;
-					proxy.config.extraParams.type = "I";
+					proxy.config.extraParams.FolderUrl = _id;
+					proxy.config.extraParams.type = _type;
 					store.load();
 					var main = btn.up('panel').up('panel');
 					main.setActiveItem(4);

@@ -1,4 +1,4 @@
-function uploadPhoto(fileURI, id, type) {
+Ôªøfunction uploadPhoto(fileURI) {
 	var win = function (r) {
 		clearCache();
 		retries = 0;
@@ -25,12 +25,12 @@ function uploadPhoto(fileURI, id, type) {
 	options.params = {}; // if we need to send parameters to the server request
 	var ft = new FileTransfer();
 	var res = "";
-	ft.upload(fileURI, encodeURI("http://59.124.220.39:8181/SP_WS/Fileupload.ashx?FolderUrl=" + id + "type=" + type), 
+	ft.upload(fileURI, encodeURI("http://59.124.220.39:8181/SP_WS/Fileupload.ashx?FolderUrl=" + _id + "type=" + _type), 
 		function(){
-			alert("§W∂«¶®•\");
+			alert("‰∏äÂÇ≥ÊàêÂäü");
 		}, 
 		function(error){
-			alert("§W∂«•¢±—:" + error.code);
+			alert("‰∏äÂÇ≥Â§±Êïó:" + error.code);
 		},
 	options);
 	

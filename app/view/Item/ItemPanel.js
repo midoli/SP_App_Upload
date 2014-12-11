@@ -10,7 +10,7 @@
         {
             docked: 'top',
             xtype: 'toolbar',
-            title: '項次列表',
+            title: '問題追蹤',
             items: [{
                 iconMask: true,
                 iconCls: 'back',
@@ -32,7 +32,7 @@
 				{
 					xtype: 'searchfield',
 					id: 'txt_search',
-					placeHolder: '請輸入項次或專案名稱',
+					placeHolder: '請輸入標題',
 					width: '100%',
 					cls: 'toolbar_search',
 					listeners: {
@@ -100,7 +100,7 @@
 			items: [
 				{
 					xtype: 'button',
-					text: '全部專案 ▼',
+					text: '全部問題 ▼',
 					cls: 'search',
 					width: '65%',
 					id: 'btn_Project'

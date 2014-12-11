@@ -18,20 +18,17 @@
         itemTpl: new Ext.XTemplate(
               '<div style="">',
 			  '<div style="float: left; padding-right:10px; height: 60px; width: 60px">',
-			  '<tpl for="."><tpl if="values.業務驗收 == true"><img src="img/Acceptance.png" /><tpl else>',
-			  '<tpl if="values.PM驗收 == true"><img src="img/Review.png" /><tpl else>',
-			  '<tpl if="values.廠商完成 == true"><img src="img/Completion.png" /><tpl else></tpl></tpl>',
-			  '</tpl></tpl></div>',
-              '<div style="margin:0 60px;font-size:14px;">{專案名稱.專案名稱}</div>',
-              '<div style="margin:0 60px;"><b>{項次}</b></div>',
-			  '<div style="font-size:14px; margin:0 60px;"><tpl for=".">{專案名稱.客戶名稱.客戶名稱}</tpl>',
+			  '</div>',
+              '<div style="margin:0 60px;font-size:14px;">{標題}</div>',
+              //'<div style="margin:0 60px;"><b>{項次}</b></div>',
+			  '<div style="font-size:14px; margin:0 60px;"><tpl for=".">{建立者.全名}</tpl>',
               '</div>',
 			  {
 				getDate: function(date) {
 					return new Date(parseInt(date.substr(6))).toLocaleDateString();
 				}
 			  }),
-		onItemDisclosure: function (record, item, index, action) {
+		/*onItemDisclosure: function (record, item, index, action) {
     		isLoad = true;
 	        //取得物件
 			var main = this.up('panel').up('panel');
@@ -56,7 +53,7 @@
 			var proxy = store.getProxy();
 			proxy.config.extraParams.$filter = "項次Id%20eq%20" + record.data.識別碼;
 			store.loadPage(1);
-		},
+		},*/
 		listeners: {
             itemtap: function (list, index, target, record, e, eOpts) {
 				isLoad = true;
@@ -64,9 +61,9 @@
 					var main = list.up('panel').up('panel');
 					main.setActiveItem(2);
 					
-					var detail = main.down('formpanel[xtype=itemdetail]')
+					var detail = main.down('formpanel[xtype=itemdetail]');
 					detail.setRecord(record);
-					//專案名稱
+					/*//專案名稱
 					detail.down('field[name=專案名稱]').setValue(record.data.專案名稱.專案名稱);
 					//附件數
 					detail.down('field[name=附件數]').setValue(record.data.附件.results.length);
@@ -90,7 +87,7 @@
 					detail.down('field[name=目標時限]').setValue(new Date(parseInt(record.data.目標時限.substr(6))).toLocaleDateString());
 					else
 					detail.down('field[name=目標時限]').setValue('');
-					
+					*/
 				}
             } 
         } 
